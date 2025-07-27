@@ -16,6 +16,12 @@ This project demonstrates a distributed representation of integers using linked 
 4. Goldbach's Conjecture is tested by finding two primes `p` and `q` such that `p + q = even_number`.
 5. Each prime is converted into a `BigInt`, then distributed into networked nodes, and their contents are printed.
 
+## Setup a virtual env
+```
+python -m venv goldbach
+. goldbach/bin/activate
+
+```
 ## Usage
 
 ```bash
